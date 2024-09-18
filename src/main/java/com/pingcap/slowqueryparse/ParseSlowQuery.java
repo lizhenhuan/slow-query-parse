@@ -111,7 +111,7 @@ public class ParseSlowQuery {
             DB_NAME = args[4];
             TABLE_NAME = args[5];
         } else {
-            LOGGER.error("please input 6 args: SLOW_QUERY_DIR,IP_PORT,USER,PASSWORD,DB_NAME,TABLE_NAME");
+            LOGGER.error("please input 6 args: SLOW_QUERY_DIR IP_PORT USER PASSWORD DB_NAME TABLE_NAME");
             System.exit(1);
         }
     }
